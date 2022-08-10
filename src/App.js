@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
-import Calculator from './Components/Calculator';
+/* eslint-diable */
+import Calculator from './components/Calculator';
 
 class App extends React.Component {
   constructor(props) {
