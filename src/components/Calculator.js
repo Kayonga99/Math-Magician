@@ -1,21 +1,12 @@
 import React, { useState } from 'react';
 import './calculatorStyles.css';
 import calculate from '../logic/calculate';
+const Calculator = () => {
+  const [obj, setObj] = useState({ total: 0, next: null, operation: null });
+  const handleClick = (e) => {
+    setObj(calculate(obj, e.target.id));
+  };
 
-class Calculator extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      total: 0,
-      next: null,
-      operation: null,
-    };
-    this.handleClick = this.handleClick.bind(this);
-  }
-
-  handleClick(e) {
-    this.setState((state) => calculate(state, e.target.id));
-  }
 
   render() {
     const { total, next, operation } = this.state;
