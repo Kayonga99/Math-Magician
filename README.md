@@ -1,10 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Math Magicians: Components
-> This is the first project of the Math Magicians application set up.
-
-> Everything you need to start using webpack is all setup and ready to use just run the following commands to get started:
-
+# Math Magicians: refactor with hooks
 Get started by copying and pasting the following in your terminal:
 
 - 1
