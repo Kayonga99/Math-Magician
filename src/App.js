@@ -1,7 +1,8 @@
 import React from 'react';
 import './App.css';
+/* eslint-disable */
 import Calculator from './Components/calculator';
-
+/* eslint-enable */
 class App extends React.Component {
   constructor(props) {
     super(props);
