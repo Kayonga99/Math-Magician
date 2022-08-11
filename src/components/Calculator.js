@@ -6,16 +6,14 @@ const Calculator = () => {
   const handleClick = (e) => {
     setObj(calculate(obj, e.target.id));
   };
-
-
-  render() {
-    const { total, next, operation } = this.state;
-    return (
-      <div className="calculator">
-        <h2 className="output c-item">
-          <span>{total}</span>
-          <span>{operation}</span>
-          <span>{next}</span>
+  
+  const { total, next, operation } = obj;
+  return (
+    <div className="calculator">
+      <h2 className="output c-item">
+        <span>{total}</span>
+        <span>{operation}</span>
+        <span>{next}</span>
         </h2>
         <button type="button" onClick={this.handleClick} id="AC" className="c-item">AC</button>
         <button type="button" onClick={this.handleClick} id="+/-" className="c-item">+/-</button>
@@ -39,6 +37,6 @@ const Calculator = () => {
       </div>
     );
   }
-}
+
 
 export default Calculator;
