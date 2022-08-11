@@ -80,7 +80,7 @@ export default function calculate(obj, buttonName) {
     }
     return {};
   }
-  
+
   // Button must be an operation
 
   // When the user presses an operation button without having entered
@@ -107,7 +107,6 @@ export default function calculate(obj, buttonName) {
       operation: buttonName,
     };
   }
-
 
   // The user hasn't typed a number yet, just save the operation
   if (!obj.next) {
