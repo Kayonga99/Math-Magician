@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Math Magicians: Full Website
+# Math Magicians: tests
 Get started by copying and pasting the following in your terminal:
 
 - 1
