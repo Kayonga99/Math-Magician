@@ -10,7 +10,7 @@ import Home from './components/home';
 import Quotes from './components/quote';
 import calculate from './logic/calculate';
 import operate from './logic/operate';
-import NavBar from "./components/navbar";
+import NavBar from './components/navbar';
 
 describe('Functions test', () => {
   test('calculate.js test', () => {
