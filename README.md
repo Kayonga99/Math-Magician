@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Math Magicians: refactor with hooks
+# Math Magicians: Full Website
 Get started by copying and pasting the following in your terminal:
 
 - 1
