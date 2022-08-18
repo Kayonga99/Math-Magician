@@ -1,0 +1,237 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`component test Calculator component should perform the calculations correctly on initial run 1`] = `
+<div
+  className="calculator"
+>
+  <h2
+    className="output c-item"
+  >
+    <span>
+      0
+    </span>
+    <span />
+    <span />
+  </h2>
+  <button
+    className="c-item"
+    id="AC"
+    onClick={[Function]}
+    type="button"
+  >
+    AC
+  </button>
+  <button
+    className="c-item"
+    id="+/-"
+    onClick={[Function]}
+    type="button"
+  >
+    +/-
+  </button>
+  <button
+    className="c-item"
+    id="%"
+    onClick={[Function]}
+    type="button"
+  >
+    %
+  </button>
+  <button
+    className="c-item bg-orange"
+    id="÷"
+    onClick={[Function]}
+    type="button"
+  >
+    ÷
+  </button>
+  <button
+    className="c-item"
+    id="7"
+    onClick={[Function]}
+    type="button"
+  >
+    7
+  </button>
+  <button
+    className="c-item"
+    id="8"
+    onClick={[Function]}
+    type="button"
+  >
+    8
+  </button>
+  <button
+    className="c-item"
+    id="9"
+    onClick={[Function]}
+    type="button"
+  >
+    9
+  </button>
+  <button
+    className="c-item bg-orange"
+    id="x"
+    onClick={[Function]}
+    type="button"
+  >
+    x
+  </button>
+  <button
+    className="c-item"
+    id="4"
+    onClick={[Function]}
+    type="button"
+  >
+    4
+  </button>
+  <button
+    className="c-item"
+    id="5"
+    onClick={[Function]}
+    type="button"
+  >
+    5
+  </button>
+  <button
+    className="c-item"
+    id="6"
+    onClick={[Function]}
+    type="button"
+  >
+    6
+  </button>
+  <button
+    className="c-item bg-orange"
+    id="-"
+    onClick={[Function]}
+    type="button"
+  >
+    -
+  </button>
+  <button
+    className="c-item"
+    id="1"
+    onClick={[Function]}
+    type="button"
+  >
+    1
+  </button>
+  <button
+    className="c-item"
+    id="2"
+    onClick={[Function]}
+    type="button"
+  >
+    2
+  </button>
+  <button
+    className="c-item"
+    id="3"
+    onClick={[Function]}
+    type="button"
+  >
+    3
+  </button>
+  <button
+    className="c-item bg-orange"
+    id="+"
+    onClick={[Function]}
+    type="button"
+  >
+    +
+  </button>
+  <button
+    className="c-item zero"
+    id="0"
+    onClick={[Function]}
+    type="button"
+  >
+    0
+  </button>
+  <button
+    className="c-item"
+    id="."
+    onClick={[Function]}
+    type="button"
+  >
+    .
+  </button>
+  <button
+    className="c-item bg-orange"
+    id="="
+    onClick={[Function]}
+    type="button"
+  >
+    =
+  </button>
+</div>
+`;
+
+exports[`component test Home component should perform correctly on initial run 1`] = `
+<div
+  className="homeParagraph"
+>
+  <h2>
+    Welcome to our page!
+  </h2>
+  <br />
+  <br />
+  <p
+    className="paragraph"
+  >
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  </p>
+  <br />
+  <br />
+  <p
+    className="paragraph"
+  >
+    "Lorem ipsum dolor sit amet,Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  </p>
+</div>
+`;
+
+exports[`component test NavBar component should perform correctly on initial run 1`] = `
+<header
+  className="nav"
+>
+  <h1>
+    Math Magicians
+  </h1>
+  <nav
+    className="nav-links"
+  >
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      Home
+    </a>
+    <a
+      href="/calculator"
+      onClick={[Function]}
+    >
+       Calculator
+    </a>
+    <a
+      href="/quotes"
+      onClick={[Function]}
+    >
+       Quote
+    </a>
+  </nav>
+</header>
+`;
+
+exports[`component test Quote component should perform correctly on initial run 1`] = `
+<main
+  className="quotesParagraph"
+>
+  <p
+    className="paragraphQuote"
+  >
+    Mathematics is not about numbers, equations, computations or algorithms: It is about understanding. - William Paul, Thurston
+  </p>
+</main>
+`;
