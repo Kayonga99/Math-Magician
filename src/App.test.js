@@ -120,4 +120,3 @@ describe('Functions test', () => {
       expect(screen.getByText(/99/i)).toBeInTheDocument();
     });
   });
-  Footer
