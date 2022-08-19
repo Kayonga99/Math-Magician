@@ -21,7 +21,7 @@ Math-Magician
 npm start
 ```
 
-The browser will open and you should see a rotating react logo
+The browser will open and you should see a calculator
 
 ```
 http://localhost:3000
