@@ -9,18 +9,14 @@
 
 .nav {
   display: flex;
-  padding-inline: 5%;
   justify-content: space-between;
-  /* border-bottom: 2px solid black; */
-  box-shadow: 5px 10px #fff;
-  border: none;
-  border-radius: 10px;
-  box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.3);
   align-items: center;
   margin: 20px auto;
   width: 95vw;
   padding: 15px 10px;
   border-radius: 20px;
+  border: none;
+  box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 .nav > h1 {
@@ -33,8 +29,9 @@
   gap: 5%;
 }
 
-.nav-links a {
+.nav-link {
   margin-right: 10px;
+  display: flex;
   padding: 10px;
   text-decoration: none;
   color: #3e3e3e;
@@ -42,6 +39,10 @@
   border-radius: 20px;
   border: none;
   box-shadow: 1px 1px 10px rgb(226, 226, 226);
+}
+
+.nav-links {
+
 }
 
 .nav-links a:hover {
