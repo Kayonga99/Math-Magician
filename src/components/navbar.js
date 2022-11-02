@@ -8,7 +8,7 @@ class NavBar extends React.PureComponent {
       <header className="nav">
         <h1>Math Magicians</h1>
         <nav className="nav-links">
-          <Link to="/">Home</Link>
+          <Link to="/"> Home</Link>
           <Link to="/calculator"> Calculator</Link>
           <Link to="/quotes"> Quote</Link>
         </nav>

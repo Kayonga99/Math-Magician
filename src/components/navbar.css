@@ -4,7 +4,11 @@
   justify-content: space-between;
   margin: 3% 0;
   padding-bottom: 3%;
-  border-bottom: 2px solid black;
+  /* border-bottom: 2px solid black; */
+  box-shadow: 5px 10px #fff;
+  border: 1px solid;
+  border-radius: 10px;
+  box-sizing: border-box;
 }
 
 .nav > h1 {
