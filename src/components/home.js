@@ -8,10 +8,10 @@ export default function Home() {
       <br />
       <br />
       <p className="paragraph">
-        &quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat.
+        &quot;A calculator is a device that performs arithmetic
+        operations on numbers. Basic calculators can do only addition,
+        subtraction, multiplication and division
+        mathematical calculations.
       </p>
       <br />
       <br />
