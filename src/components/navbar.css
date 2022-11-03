@@ -41,15 +41,10 @@
   box-shadow: 1px 1px 10px rgb(226, 226, 226);
 }
 
-.nav-links {
-
-}
-
 .nav-links a:hover {
   cursor: pointer;
   color: orangered;
 }
-
 
 @media only screen and (max-width: 700px) {
   .nav {
