@@ -27,7 +27,7 @@ The browser will open and you should see a calculator
 http://localhost:3000
 ```
 
-- [click here! to see live demo](https://jolly-blancmange-7cd351.netlify.app/)
+- [click here! to see live demo](https://fancy-zuccutto-0837b6.netlify.app/)
 
 ## Buit with
 
