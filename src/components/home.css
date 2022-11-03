@@ -13,8 +13,10 @@ body {
 }
 
 .homeParagraph {
-  padding: 2%;
-  font-size: 25px;
+  margin: 30px 30px 30px 30px;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 5px 15px 20px rgba(0, 0, 0, 0.3);
 }
 
 .paragraph {

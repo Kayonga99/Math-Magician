@@ -1,10 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Comic Neue', cursive;
+}
+
 .nav {
   display: flex;
-  padding-inline: 5%;
   justify-content: space-between;
-  margin: 3% 0;
-  padding-bottom: 3%;
-  border-bottom: 2px solid black;
+  align-items: center;
+  margin: 20px auto;
+  width: 95vw;
+  padding: 15px 10px;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 .nav > h1 {
@@ -17,14 +29,27 @@
   gap: 5%;
 }
 
-.nav-links a {
-  font-size: 23px;
-  padding: 1%;
+.nav-link {
+  margin-right: 10px;
+  display: flex;
+  padding: 10px;
   text-decoration: none;
-  color: black;
+  color: #3e3e3e;
+  font-weight: 600;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 1px 1px 10px rgb(226, 226, 226);
 }
 
 .nav-links a:hover {
   cursor: pointer;
   color: orangered;
+}
+
+@media only screen and (max-width: 700px) {
+  .nav {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
